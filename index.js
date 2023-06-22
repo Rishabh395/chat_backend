@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "https://6493ccf5a500071a5fdf6704--sage-otter-9462a1.netlify.app/login",
+    origin: "https://sage-otter-9462a1.netlify.app/login",
     credentials: true,
   },
 });
